@@ -7,7 +7,8 @@
 | IDM           | 6.42          |
 | Windows10     | -             |
 | MSYS2         | 20241208      |
-
+| Visual Studio | 2022 Community|
+| VSCode        | -             |
 ## MSYS2 Configuration
 ### Changing Home Directory
 edit the following file : `/C/msys64/etc/nsswitch.conf/`  
