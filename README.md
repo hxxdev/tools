@@ -13,9 +13,10 @@
 edit the following file : `/C/msys64/etc/nsswitch.conf/`  
 `db_home: windows`  
 put .bashrc in your windows home directory  
+
 ### Install vim
----------------
-`pacman -S vim`  
+you can install vim by `pacman -S vim`  
+
 ### Install Git
 #### Installing Git
 Install git in msys by  
