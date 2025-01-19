@@ -10,13 +10,21 @@
 
 ## MSYS2 Configuration
 ### Changing Home Directory
-edit the following file : /C/msys64/etc/nsswitch.conf/
-`db_home: windows`
-put .bashrc in your windows home directory
+edit the following file : /C/msys64/etc/nsswitch.conf/  
+`db_home: windows`  
+put .bashrc in your windows home directory  
 ### Install vim
-`pacman -S vim`
-### Installing Git
-1. Install wish.exe in /C/msys64/mingw64/bin/
-`pacman -S mingw-w64-x86_64-tk`
-2. Install git in /C/msys64/bin/
-`pacman -S git`
+`pacman -S vim`  
+### Install Git
+#### Installing Git
+Install git in msys by  
+`pacman -S git`  
+#### Git-Gui
+1. Install wish.exe in minw64 by  
+`pacman -S mingw-w64-x86_64-tk`  
+2. Run Mingw64
+3. Run git gui by `git-gui &`
+#### Credential Manager
+1. Install git in Windows from `git-scm.com`
+2. Copy `C/Program Files/Git/mingw64/bin` into `C/msys64/mingw64/bin`
+3. `git credential-manager` should work.
