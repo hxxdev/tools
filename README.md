@@ -10,10 +10,11 @@
 
 ## MSYS2 Configuration
 ### Changing Home Directory
-edit the following file : /C/msys64/etc/nsswitch.conf/  
+edit the following file : `/C/msys64/etc/nsswitch.conf/`  
 `db_home: windows`  
 put .bashrc in your windows home directory  
 ### Install vim
+---------------
 `pacman -S vim`  
 ### Install Git
 #### Installing Git
