@@ -16,6 +16,8 @@ alias ll='ls -all --color=auto'
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd..'
+alias dbg32='~/dev/tools/x64dbg/tools/release/x32/x32dbg &'
+alias dbg64='~/dev/tools/x64dbg/tools/release/x64/x64dbg &'
 #alias dir='dir --color=auto'
 #alias vdir='vdir --color=auto'
 
