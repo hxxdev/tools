@@ -10,6 +10,7 @@
 | Visual Studio | 2022 Community|
 | VSCode        | -             |
 | Git           | 2.47.1        |
+| VS WDK        | 10.0.26100    |
 
 ## MSYS2 Configuration
 ### VIM Installation
