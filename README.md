@@ -14,7 +14,7 @@
 
 ## MSYS2 Configuration
 ### .bashrc
-Copy /tools/msys64/.bashrc into your Windows home directory.  
+Copy /tools/msys2/.bashrc into your Windows home directory.  
 Copy c/msys64/home/user/.bash_profile into your Windows home directory.  
 ### VIM Installation
 you can install vim by `pacman -S vim`  
