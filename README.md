@@ -24,7 +24,7 @@ edit the following file : `/C/msys64/etc/nsswitch.conf/`
 put .bashrc in your windows home directory  
 ### Inheriting Windows environment variable to MSYS2
 Open `/C/msys64/mingw64.ini`  
-Write `MSYS2_PATH_TYPE=inherit`
+Write `MSYS2_PATH_TYPE=inherit`  
 ### Install Git
 1. Install git in Windows from `git-scm.com`  
 2. Add these directories into environment variable PATH.  
