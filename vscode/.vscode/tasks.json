@@ -1,0 +1,113 @@
+{
+    "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "cmd.exe",
+                "args": [
+                    "/C",
+                    "\"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/VsDevCmd.bat\"",
+                    "&&"
+                ]
+            }
+        }
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cl.exe build active file",
+            "command": "cl.exe",
+            "args": [
+                // build
+                "${file}",
+                "/c",
+                "/ZI",
+                "/JMC",
+                "/nologo",
+                "/W3",
+                "/WX-",
+                "/diagnostics:column",
+                "/sdl",
+                "/Od",
+                "/D",
+                "_DEBUG",
+                "/D",
+                "_CONSOLE",
+                "/D",
+                "_UNICODE",
+                "/D",
+                "UNICODE",
+                "/Gm-",
+                "/EHsc",
+                "/RTC1",
+                "/MDd",
+                "/GS",
+                "/fp:precise",
+                "/Zc:wchar_t",
+                "/Zc:forScope",
+                "/Zc:inline",
+                "/permissive-",
+                "/Fo${fileDirname}\\\\",
+                "/Fd${fileDirname}\\${fileBasenameNoExtension}.pdb", 
+                "/external:W3",
+                "/Gd",
+                "/TP",
+                "/FC",
+                "${file}",
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+            },
+            {
+                "type": "shell",
+                "label": "cl.exe link active file",
+                "command": "cl.exe",
+                "args": [
+                // link
+                "/out:${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "/incremental",
+                "/ILK${fileDirname}\\${fileBasenameNoExtension}.ilk",
+                "/nologo",
+                "KERNEL32.LIB",
+                "USER32.LIB",
+                "GDI32.LIB",
+                "WINSPOOL.LIB",
+                "COMDLG32.LIB",
+                "ADVAPI32.LIB",
+                "SHELL32.LIB",
+                "OLE32.LIB",
+                "OLEAUT32.LIB",
+                "UUID.LIB",
+                "ODBC32.LIB",
+                "ODBCCP32.LIB",
+                "/manifest",
+                "/manifestuac:level='asInvoker'",
+                //"uiAccess='false'",
+                "/manifest:embed",
+                "/DEBUG",
+                "/pdb:${fileDirname}\\${fileBasenameNoExtension}.pdb",
+                "/subsystem:console",
+                "/tlbid:1",
+                "/DYNAMICBASE",
+                "/nxcompat",
+                "/IMPLIB:${fileDirname}\\${fileBasenameNoExtension}.lib",
+                "/MACHINE:X64",
+                "${fileDirname}\\${fileBasenameNoExtension}.obj"
+                
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    
+    ]
+}
