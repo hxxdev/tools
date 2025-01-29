@@ -31,3 +31,9 @@ Write `MSYS2_PATH_TYPE=inherit`
 `C:\Program Files\Git\mingw64\bin`  
 `C:\Program Files\Git\cmd`  
 3. Test git commands `git-gui`, `gitk`, `git pull`... etc.
+
+## Visual Basic Configuration
+1. View - Other Windows - Property Manager  
+2. Right click on your project.  
+3. Add Existing Property Sheet  
+4. Select /tools/vs/PropertySheet.pros
