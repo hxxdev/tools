@@ -1,16 +1,17 @@
 # tools
-## Version Table
-| Tool Name     | Version       |
-| ------------- |:-------------:|
-| CheatEngine   | 7.5           |
-| HexEdit       | 2.5.0.0       |
-| IDM           | 6.42          |
-| Windows10     | -             |
-| MSYS2         | 20241208      |
-| Visual Studio | 2022 Community|
-| VSCode        | -             |
-| Git           | 2.47.1        |
-| VS WDK        | 10.0.26100    |
+## Version Table            
+| Tool Name                 | Version       |
+| -------------             |:-------------:|
+| CheatEngine               | 7.5           |
+| HexEdit                   | 2.5.0.0       |
+| IDM                       | 6.42          |
+| Windows10                 | -             |
+| MSYS2                     | 20241208      |
+| Visual Studio             | 2022 Community|
+| VSCode                    | -             |
+| Git                       | 2.47.1        |
+| VS WDK                    | 10.0.26100    |
+| VmwareHardenedLoader      | -             |
 
 ## MSYS2 Configuration
 ### .bashrc
