@@ -39,3 +39,11 @@ Write `MSYS2_PATH_TYPE=inherit`
 2. Right click on your project.  
 3. Add Existing Property Sheet  
 4. Select /tools/vs/PropertySheet.pros
+
+## x64dbg
+### Language
+Options - Languages - en_US  
+### Disable TLS Callback
+Options - Preferences - disable User TLS Callbacks and System TLS Callbacks 
+### Import Settings
+Options - Import Settings - Load x64dbg.ini/x32dbg.ini  
