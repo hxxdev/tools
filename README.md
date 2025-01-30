@@ -3,6 +3,7 @@
 | Tool Name                 | Version       |
 | -------------             |:-------------:|
 | CheatEngine               | 7.5           |
+| x64dbg                    | 25.01.17      |
 | HexEdit                   | 2.5.0.0       |
 | IDM                       | 6.42          |
 | Windows10                 | -             |
