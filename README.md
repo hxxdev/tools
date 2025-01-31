@@ -34,11 +34,20 @@ Write `MSYS2_PATH_TYPE=inherit`
 `C:\Program Files\Git\cmd`  
 3. Test git commands `git-gui`, `gitk`, `git pull`... etc.
 
-## Visual Basic Configuration
+## Visual Studio Configuration
+### PropertySheet
 1. View - Other Windows - Property Manager  
 2. Right click on your project.  
 3. Add Existing Property Sheet  
 4. Select /tools/vs/PropertySheet.pros
+### Include directories
+1. Right click on project.  
+2. Properties - VC++ Directories - Include Directories - Inlcude Directories  
+3. Add /tools/hacklib/ into the directory list.  
+### When working with DLL
+1. Right click on project.  
+2. Properties - General - Configuration Type  
+3. set it to Dynamic Library(.dll)   
 
 ## x64dbg
 ### Language
