@@ -3,11 +3,10 @@
 #endif
 
 #include <Windows.h>
+#include <stdio.h>
 #include "basic_tool.h"
 
 int injected_thread() {
-    ERROR_CHECK_INIT()
-
     int msgboxID = NULL;
     ERROR_CHECK(msgboxID = MessageBox(  NULL,
                                         L"Hello, Please press 'M'.",
@@ -29,7 +28,6 @@ int injected_thread() {
 }
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
-    ERROR_CHECK_INIT()
     if (fdwReason == DLL_PROCESS_ATTACH) {
         ERROR_CHECK(CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)injected_thread, NULL, 0, NULL))
     }
