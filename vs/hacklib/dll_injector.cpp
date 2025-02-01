@@ -56,7 +56,6 @@ int DllInjector::inject() {
 	/* Clean up */
 	ERROR_CHECK(VirtualFreeEx(hProcess, lpBaseAddress, 0, MEM_RELEASE), NULL)
 	ERROR_CHECK(CloseHandle(thread), NULL)
-	ERROR_CHECK(CloseHandle(hProcess), NULL)
 
 	return 0;
 }
