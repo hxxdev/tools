@@ -11,14 +11,14 @@ int injected_thread() {
     ERROR_CHECK(msgboxID = MessageBox(  NULL,
                                         L"Hello, Please press 'M'.",
                                         (LPCWSTR)L"Hello",
-                                        MB_OK | MB_DEFBUTTON1))
+                                        MB_OK | MB_DEFBUTTON1), NULL)
     while (true) {
         if (GetAsyncKeyState('M')) {
             int msgboxID = NULL;
             ERROR_CHECK(msgboxID = MessageBox(  NULL,
                                                 L"Hello, M",
                                                 (LPCWSTR)L"Hello",
-                                                MB_OK | MB_DEFBUTTON1))
+                                                MB_OK | MB_DEFBUTTON1), NULL)
             break;
         }
         Sleep(1);
@@ -29,7 +29,7 @@ int injected_thread() {
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
     if (fdwReason == DLL_PROCESS_ATTACH) {
-        ERROR_CHECK(CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)injected_thread, NULL, 0, NULL))
+        ERROR_CHECK(CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)injected_thread, NULL, 0, NULL), NULL)
     }
 
     return true;

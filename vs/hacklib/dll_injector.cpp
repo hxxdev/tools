@@ -20,17 +20,17 @@ int DllInjector::inject() {
 	* Base address of the allocated memory is retreived(`lpBaseAddress`).
 	* And then, write path of DLL to be injected to this base address. */
 	LPVOID lpBaseAddress = NULL;
-	ERROR_CHECK(lpBaseAddress = VirtualAllocEx(hProcess, NULL, strlen(dllPath) + 1, MEM_COMMIT, PAGE_READWRITE))
-	ERROR_CHECK(WriteProcessMemory(hProcess, lpBaseAddress, dllPath, strlen(dllPath) + 1, NULL))
+	ERROR_CHECK(lpBaseAddress = VirtualAllocEx(hProcess, NULL, strlen(dllPath) + 1, MEM_COMMIT, PAGE_READWRITE), NULL)
+	ERROR_CHECK(WriteProcessMemory(hProcess, lpBaseAddress, dllPath, strlen(dllPath) + 1, NULL), NULL)
 
 	/* LoadLibraryA exists inside kernel32.dll.
 		* Get handle of kernel32.dll. */
 	HMODULE kernel32base = NULL;
-	ERROR_CHECK(kernel32base = GetModuleHandle(L"kernel32.dll"))
+	ERROR_CHECK(kernel32base = GetModuleHandle(L"kernel32.dll"), NULL)
 
 	/* Get address of LoadLibraryA. */
 	FARPROC pAddress = NULL;
-	ERROR_CHECK(pAddress = GetProcAddress(kernel32base, "LoadLibraryA"))
+	ERROR_CHECK(pAddress = GetProcAddress(kernel32base, "LoadLibraryA"), NULL)
 
 	/* Create thread in process that runs LoadLibraryA. */
 	HANDLE thread = NULL;
@@ -40,19 +40,23 @@ int DllInjector::inject() {
 											(LPTHREAD_START_ROUTINE)pAddress,
 											lpBaseAddress,
 											0,
-											NULL))
+											NULL), NULL)
 
-	/* Wait until the thread is created. */
-	ERROR_CHECK(WaitForSingleObject(thread, INFINITE))
+	/* Wait until the thread has been created. */
+	ERROR_CHECK(WaitForSingleObject(thread, INFINITE), WAIT_FAILED)
 
-	/* Wait until the thread is finished executing. */
-	LPDWORD exitCode = NULL;
-	ERROR_CHECK(GetExitCodeThread(thread, exitCode))
+	/* Wait until the thread has finished executing. */
+	DWORD exitCode = NULL;
+	do {
+		ERROR_CHECK(GetExitCodeThread(thread, &exitCode), NULL)
+	} while (exitCode == STILL_ACTIVE);
+	
+	//GetExitCodeThread(thread, exitCode);
 
 	/* Clean up */
-	ERROR_CHECK(VirtualFreeEx(hProcess, lpBaseAddress, 0, MEM_RELEASE))
-	ERROR_CHECK(CloseHandle(thread))
-	ERROR_CHECK(CloseHandle(hProcess))
+	ERROR_CHECK(VirtualFreeEx(hProcess, lpBaseAddress, 0, MEM_RELEASE), NULL)
+	ERROR_CHECK(CloseHandle(thread), NULL)
+	ERROR_CHECK(CloseHandle(hProcess), NULL)
 
 	return 0;
 }
