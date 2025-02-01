@@ -23,6 +23,11 @@ public:
 	 * Refer to Windows task manager to find exact window name. */
 	HANDLE OpenProcessByWindowName(LPCWSTR WindowName);
 
+	
+	/* Read Process */
+	template <typename T>
+	int ReadProcess(DWORD64 ReadAddress, T* ReadData);
+
 	/* Close Process */
 	int CloseProcess();
 
@@ -31,4 +36,22 @@ public:
 	DWORD64 Get64BitBaseAddress(LPCWSTR ModuleName);
 };
 
+template <typename T>
+int ProcessManager::ReadProcess(DWORD64 ReadAddress, T* ReadData) {
+	SIZE_T ActualNumBytesRead = 0;
+	ERROR_CHECK(ReadProcessMemory(hProcess,
+		(LPCVOID)ReadAddress,
+		ReadData,
+		sizeof(ReadData),
+		&ActualNumBytesRead), NULL)
+
+		if (ActualNumBytesRead != sizeof(ReadData)) {
+			wprintf(L"ReadProcessMemory failed\n");
+			wprintf(L"Expected Bytes Read : %I64d\n", (long long)sizeof(ReadData));
+			wprintf(L"Actual Bytes Read : %I64d\n", (long long)ActualNumBytesRead);
+			return NULL;
+		}
+
+	return 1;
+}
 #endif

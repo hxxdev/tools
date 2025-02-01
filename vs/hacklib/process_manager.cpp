@@ -50,10 +50,10 @@ HANDLE ProcessManager::OpenProcessByProcessName(LPCWSTR ProcessName) {
 		wstring wstrProcessName(ProcessName);
 		wstring message = L"Process " + wstrProcessName + L" not found.";
 		int msgboxID = NULL;
-		ERROR_CHECK(MessageBox(NULL,
-			message.c_str(),
-			(LPCWSTR)L"Error",
-			MB_OK | MB_DEFBUTTON1), NULL)
+		ERROR_CHECK(MessageBox(	NULL,
+								message.c_str(),
+								(LPCWSTR)L"Error",
+								MB_OK | MB_DEFBUTTON1), NULL)
 	}
 
 	return hProcess;
@@ -70,11 +70,11 @@ HANDLE ProcessManager::OpenProcessByWindowName(LPCWSTR WindowName) {
 		wstring wstrWindowName(WindowName);
 		wstring message = L"Window " + wstrWindowName + L" not found.";
 		int msgboxID = NULL;
-		ERROR_CHECK(MessageBox(NULL,
-			message.c_str(),
-			(LPCWSTR)L"Error",
-			MB_OK | MB_DEFBUTTON1), NULL)
-			return NULL;
+		ERROR_CHECK(MessageBox(	NULL,
+								message.c_str(),
+								(LPCWSTR)L"Error",
+								MB_OK | MB_DEFBUTTON1), NULL)
+								return NULL;
 	}
 
 	/* get PID of Flare.exe. */
