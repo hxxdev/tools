@@ -52,3 +52,18 @@ bool HandleError(void) {
 	}
 	return false;
 }
+
+// convert char to LPCWSTR
+void CharToWChar(const char* pstrSrc, wchar_t* pwstrDest) {
+	int nLen = (int)strlen(pstrSrc) + 1;
+	SIZE_T convertedBytes = NULL;
+	mbstowcs_s(&convertedBytes, pwstrDest, nLen, pstrSrc, nLen - 1);
+}
+
+// convert LPCWSTR to char
+void WCharToChar(const wchar_t* pwstrSrc, char pstrDest[]) {
+	int nLen = (int)wcslen(pwstrSrc) + 1;
+	SIZE_T* convertedBytes = NULL;
+	wcstombs_s(convertedBytes, pstrDest, nLen, pwstrSrc, nLen);
+	
+}

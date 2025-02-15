@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\basic_tool.cpp" />
     <ClCompile Include="..\..\dll_injector.cpp" />
+    <ClCompile Include="..\..\process_manager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

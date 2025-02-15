@@ -4,10 +4,9 @@
 class DllInjector {
 private:
 	HANDLE hProcess;
-	LPCSTR	dllPath;
 public:
-	DllInjector(HANDLE ProcessHandle, LPCSTR dllFullPath);
-	int inject();
+	DllInjector(HANDLE ProcessHandle);
+	int inject(LPCSTR dllFullPath);
 };
 
 #endif

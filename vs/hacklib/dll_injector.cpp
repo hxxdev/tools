@@ -9,22 +9,21 @@
 
 using namespace std;
 
-DllInjector::DllInjector(HANDLE ProcessHandle, LPCSTR dllFullPath) {
+DllInjector::DllInjector(HANDLE ProcessHandle) {
 	hProcess = ProcessHandle;
-	dllPath = dllFullPath;
 }
 
-int DllInjector::inject() {
+int DllInjector::inject(LPCSTR dllFullPath) {
 
 	/* Allocate memory inside the process to store the full path of DLL to be injected.
 	* Base address of the allocated memory is retreived(`lpBaseAddress`).
 	* And then, write path of DLL to be injected to this base address. */
 	LPVOID lpBaseAddress = NULL;
-	ERROR_CHECK(lpBaseAddress = VirtualAllocEx(hProcess, NULL, strlen(dllPath) + 1, MEM_COMMIT, PAGE_READWRITE), NULL)
-	ERROR_CHECK(WriteProcessMemory(hProcess, lpBaseAddress, dllPath, strlen(dllPath) + 1, NULL), NULL)
+	ERROR_CHECK(lpBaseAddress = VirtualAllocEx(hProcess, NULL, strlen(dllFullPath) + 1, MEM_COMMIT, PAGE_READWRITE), NULL)
+	ERROR_CHECK(WriteProcessMemory(hProcess, lpBaseAddress, dllFullPath, strlen(dllFullPath) + 1, NULL), NULL)
 
 	/* LoadLibraryA exists inside kernel32.dll.
-		* Get handle of kernel32.dll. */
+	 * Get handle of kernel32.dll. */
 	HMODULE kernel32base = NULL;
 	ERROR_CHECK(kernel32base = GetModuleHandle(L"kernel32.dll"), NULL)
 

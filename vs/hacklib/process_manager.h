@@ -1,6 +1,9 @@
 #ifndef PROCESS_MANAGER_H
 #define PROCESS_MANAGER_H
 
+#include <stdio.h>
+#include "basic_tool.h"
+
 class ProcessManager {
 private:
 	HANDLE hProcess = NULL;
@@ -39,11 +42,11 @@ public:
 template <typename T>
 int ProcessManager::ReadProcess(DWORD64 ReadAddress, T* ReadData) {
 	SIZE_T ActualNumBytesRead = 0;
-	ERROR_CHECK(ReadProcessMemory(hProcess,
-		(LPCVOID)ReadAddress,
-		ReadData,
-		sizeof(ReadData),
-		&ActualNumBytesRead), NULL)
+	ERROR_CHECK(ReadProcessMemory(	hProcess,
+									(LPCVOID)ReadAddress,
+									ReadData,
+									sizeof(ReadData),
+									&ActualNumBytesRead), NULL)
 
 		if (ActualNumBytesRead != sizeof(ReadData)) {
 			wprintf(L"ReadProcessMemory failed\n");
