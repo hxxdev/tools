@@ -1,8 +1,9 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
+# enable windows .exe launch in wsl environment
 export PATH_WIN="/mnt/c"
 sudo echo ":WSLInterop:M::MZ::/init:" | sudo tee /proc/sys/fs/binfmt_misc/register
+
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 
 # If not running interactively, don't do anything
 case $- in
