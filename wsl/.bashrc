@@ -1,0 +1,1 @@
+/home/hxxdev/.bashrc
