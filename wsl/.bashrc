@@ -1,5 +1,6 @@
 # enable windows .exe launch in wsl environment
 export PATH_WIN="/mnt/c"
+export PATH_DEV="~/dev"
 sudo echo ":WSLInterop:M::MZ::/init:" | sudo tee /proc/sys/fs/binfmt_misc/register
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
