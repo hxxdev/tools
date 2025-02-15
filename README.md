@@ -33,6 +33,10 @@ Write `MSYS2_PATH_TYPE=inherit`
 `C:\Program Files\Git\mingw64\bin`  
 `C:\Program Files\Git\cmd`  
 3. Test git commands `git-gui`, `gitk`, `git pull`... etc.
+### Modify env.sh
+modify env.sh file to your needs.
+env.sh is placed at /msys2/.
+apply script by `source env.sh`.
 
 ## Visual Studio Configuration
 ### PropertySheet
