@@ -101,7 +101,7 @@
   <meta name="current-catalog-service-hash" content="6f13f31f798a93a6b08d3be0727120e9af35851fac7b9c620d6cf9a70068c136">
 
 
-  <meta name="request-id" content="E7C6:2C12AA:594182:7F9F22:67B0CEE3" data-pjax-transient="true"/><meta name="html-safe-nonce" content="bfa7475791bbc4943a7bfddd65d536dcf61a2fbd8dece4142517cac01f221b1f" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFN0M2OjJDMTJBQTo1OTQxODI6N0Y5RjIyOjY3QjBDRUUzIiwidmlzaXRvcl9pZCI6IjI0NzI3NDMzNjEzMTE3MjMyMzUiLCJyZWdpb25fZWRnZSI6ImtvcmVhY2VudHJhbCIsInJlZ2lvbl9yZW5kZXIiOiJrb3JlYWNlbnRyYWwifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="7716ca37a263f9714297a2d84c03e727d13a4030bfd5c58a0ebbc704c6a721fe" data-pjax-transient="true"/>
+  <meta name="request-id" content="FBAF:E6F03:8DA595:CE4768:67B19168" data-pjax-transient="true"/><meta name="html-safe-nonce" content="c71467496227837bfa9e7cef6c6bee71604b209fb33dab4c99fe4f0d72e49aef" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGQkFGOkU2RjAzOjhEQTU5NTpDRTQ3Njg6NjdCMTkxNjgiLCJ2aXNpdG9yX2lkIjoiMTY3NjA0ODg0MDgyNjkxNzIyNCIsInJlZ2lvbl9lZGdlIjoia29yZWFjZW50cmFsIiwicmVnaW9uX3JlbmRlciI6ImtvcmVhY2VudHJhbCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="27b2f7d06489bae98d496d948c07e640be681e05129dbfa1f30d990f531b6a82" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:16408992" data-turbo-transient>
@@ -864,7 +864,7 @@ Run..." />
                 
 
 
-<qbsearch-input class="search-input" data-scope="repo:neovim/neovim" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="0NpHwlaNM0u0dN5bUiSpBLdOhkbzIOGFPaiNnis1ZB6GigszNJIbsUNqGZBwrAaViIOoh6bnJqrQ7gWJYAcATg" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="neovim/neovim" data-current-org="neovim" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+<qbsearch-input class="search-input" data-scope="repo:neovim/neovim" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="QA7k9Xb7JqKSjcqDmcjfc6G-uVczd3WaQjk-Td5ep2dZszfX4h8CSHaWq2-zCwtQHLZNI0nnJ9IVb2RTAALYtw" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="neovim/neovim" data-current-org="neovim" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -929,7 +929,7 @@ Run..." />
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-8df095b8-7d3f-412e-b883-814231828f4d" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-91efb84c-a5a4-4612-aed4-05da0012ab0f" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -1166,7 +1166,7 @@ Run..." />
                   id="query-builder-test-results"
                 ></ul>
         </div>
-      <div class="FormControl-inlineValidation" id="validation-8df095b8-7d3f-412e-b883-814231828f4d" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-91efb84c-a5a4-4612-aed4-05da0012ab0f" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -1207,7 +1207,7 @@ Run..." />
   
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="xv5Lf3AGVyWUQK9r6WuJhBZxxf/2s9vjqzmzObuyW24sQyjeHzx44Z4WOhMTtbyo9Enld1GWKM61TuVimaOYZw==" />
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="P00BD9xxr0GAhu1Qv4CJud3ZjxtEliITehopNKK/QG062v+ne37RmOnB5oKn4CSkWuVC7WZfQ/H5lLZkzPUdnQ==" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -1245,7 +1245,7 @@ Run..." />
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="jmmxeuZw37rjdEaEZzAaTQ6UWoHhXbWsaAWK/cP6ba6qd+SI7y6Ratrntx40SNnZ9mXHfNIq4keSclQLf89CWA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="EkplxAbHqyqdEMMTlI+c1plgkhstDCTMMvpDyi+jyW+OWOL5QHMsXmkmcsp8Aa3Yk0DmC1Y3kqEBeLef+4Qcog==" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -1263,7 +1263,7 @@ Run..." />
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" data-csrf="true" value="4gFF4Xw5Jpc1Lj385A9D+aVObTShef90CIK0gpD/IPhwtZyyDMXrJtvg34PZxK+nHQhhtTA4dqQqkowVJyBY4Q==" />
+              <input type="hidden" data-csrf="true" value="s0KdWix586T0L5lnpYrnzm7vBSFIrDP6OYjdtBx3iSVX1ZpUwAeQ3UHs8LBGFWmL5kwsSUAPJiZ0aAa1cgfDIQ==" />
             </auto-check>
           </div>
 
@@ -1338,10 +1338,10 @@ Run..." />
         <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
-    <button id="icon-button-4a6f7cd8-e8fb-4aeb-9279-4c4c23f91766" aria-labelledby="tooltip-a936e142-9ac0-4560-8edc-069a04d2b4f4" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <button id="icon-button-826cf8c3-2e4e-4c4c-b5c1-fc02c4cf21d2" aria-labelledby="tooltip-0fe4a3d3-f0cb-4743-81d9-78367cfc1842" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button><tool-tip id="tooltip-a936e142-9ac0-4560-8edc-069a04d2b4f4" for="icon-button-4a6f7cd8-e8fb-4aeb-9279-4c4c23f91766" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button><tool-tip id="tooltip-0fe4a3d3-f0cb-4743-81d9-78367cfc1842" for="icon-button-826cf8c3-2e4e-4c4c-b5c1-fc02c4cf21d2" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 
 
   
@@ -1450,7 +1450,7 @@ Run..." />
             <a href="/login?return_to=%2Fneovim%2Fneovim" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/neovim/neovim/releases/tag/stable/nvim.appimage&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="56961bc993767bd56fdcceb52c4e78bf1b7155b138bc5dc5c5428d0aa6840bf4" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
     <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
 </svg>Notifications
-</a>    <tool-tip id="tooltip-33c5bf62-950e-49a8-a17c-d60d4621b22c" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
+</a>    <tool-tip id="tooltip-65f1daf2-ebcc-47fd-a9e4-f83e75275a3a" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
 
   </li>
 
@@ -1458,7 +1458,7 @@ Run..." />
           <a icon="repo-forked" id="fork-button" href="/login?return_to=%2Fneovim%2Fneovim" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:16408992,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/neovim/neovim/releases/tag/stable/nvim.appimage&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="79208b7105ae0213846892efba5bddd19302442c21af8a4a3122491811a1074d" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
 </svg>Fork
-    <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="5,867" data-view-component="true" class="Counter">5.9k</span>
+    <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="5,868" data-view-component="true" class="Counter">5.9k</span>
 </a>
   </li>
 
@@ -1468,7 +1468,7 @@ Run..." />
     <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
-</span>          <span id="repo-stars-counter-star" aria-label="86197 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="86,197" data-view-component="true" class="Counter js-social-count">86.2k</span>
+</span>          <span id="repo-stars-counter-star" aria-label="86204 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="86,204" data-view-component="true" class="Counter js-social-count">86.2k</span>
 </a></div>
   </li>
 
@@ -1503,7 +1503,7 @@ Run..." />
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
 </svg>
         <span data-content="Issues">Issues</span>
-          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="1,548" data-view-component="true" class="Counter">1.5k</span>
+          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="1,551" data-view-component="true" class="Counter">1.6k</span>
 
 
     
@@ -1515,7 +1515,7 @@ Run..." />
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
 </svg>
         <span data-content="Pull requests">Pull requests</span>
-          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="298" data-view-component="true" class="Counter">298</span>
+          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="304" data-view-component="true" class="Counter">304</span>
 
 
     
@@ -1594,22 +1594,22 @@ Run..." />
 </ul>
     <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
   <focus-group direction="vertical" mnemonics retain>
-    <button id="action-menu-928101f2-3007-4935-a8cf-787cab69654d-button" popovertarget="action-menu-928101f2-3007-4935-a8cf-787cab69654d-overlay" aria-controls="action-menu-928101f2-3007-4935-a8cf-787cab69654d-list" aria-haspopup="true" aria-labelledby="tooltip-db29da82-64e9-4b9a-8a29-62820ef646ba" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
+    <button id="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-button" popovertarget="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-overlay" aria-controls="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-list" aria-haspopup="true" aria-labelledby="tooltip-92429c3e-783f-4aaa-a743-904864db2dbd" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
     <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
 </svg>
-</button><tool-tip id="tooltip-db29da82-64e9-4b9a-8a29-62820ef646ba" for="action-menu-928101f2-3007-4935-a8cf-787cab69654d-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
+</button><tool-tip id="tooltip-92429c3e-783f-4aaa-a743-904864db2dbd" for="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
 
 
-<anchored-position data-target="action-menu.overlay" id="action-menu-928101f2-3007-4935-a8cf-787cab69654d-overlay" anchor="action-menu-928101f2-3007-4935-a8cf-787cab69654d-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
+<anchored-position data-target="action-menu.overlay" id="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-overlay" anchor="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
   <div data-view-component="true" class="Overlay Overlay--size-auto">
     
       <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
   <div data-view-component="true">
-    <ul aria-labelledby="action-menu-928101f2-3007-4935-a8cf-787cab69654d-button" id="action-menu-928101f2-3007-4935-a8cf-787cab69654d-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+    <ul aria-labelledby="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-button" id="action-menu-15e51732-ab1c-45ae-b98e-17450e1e01f6-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
         <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-999dbe56-745c-4fcd-8062-8552e2ac3ce9" href="/neovim/neovim/tree/stable" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-b00dc169-6b71-43bf-acb6-9023ee2775a7" href="/neovim/neovim/tree/stable" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
@@ -1625,7 +1625,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-007ac1e4-8e1a-4758-bfbc-4b4d56d34549" href="/neovim/neovim/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-0a53604c-8483-42d2-a0bc-cc17ecc12b31" href="/neovim/neovim/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
@@ -1641,7 +1641,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-5fc1ed6e-82c8-47f1-8678-5cce55fb8b53" href="/neovim/neovim/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-9b381356-7db1-4a3f-bddb-3f25e752e84f" href="/neovim/neovim/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
@@ -1657,7 +1657,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i3discussions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-ab191a33-dc40-4767-83cf-b9ca93994163" href="/neovim/neovim/discussions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-e09dd099-dd9d-48c4-a155-0e303d243830" href="/neovim/neovim/discussions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment-discussion">
     <path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"></path>
@@ -1673,7 +1673,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i4actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-ac6483b7-7ef9-4124-b8ae-4167b510e7f8" href="/neovim/neovim/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-056eeec7-b4a5-473e-b9eb-3e7c48284a0f" href="/neovim/neovim/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
@@ -1689,7 +1689,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i5projects-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-3f5b7971-9bb4-413a-85dd-5d8e0cd3bbbf" href="/neovim/neovim/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-a5b69ed6-e78c-43de-a8bc-6dd700d31d68" href="/neovim/neovim/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
     <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
@@ -1705,7 +1705,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i6wiki-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-aff4d0a6-a08e-4ff2-98d3-4b5d5fbd83a7" href="/neovim/neovim/wiki" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-ec0f8dbb-241a-4b8c-ae01-f87eff3a2b7e" href="/neovim/neovim/wiki" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book">
     <path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path>
@@ -1721,7 +1721,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i7security-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-86334288-7ebc-47b4-83d8-4aad31c38f6a" href="/neovim/neovim/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-8d2a1ebf-ae46-43ae-8b1a-e9b420d31869" href="/neovim/neovim/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
@@ -1737,7 +1737,7 @@ Run..." />
         <li hidden="hidden" data-menu-item="i8insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-fb4c9ae9-33bd-468d-8db7-2a60b32b2cc1" href="/neovim/neovim/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-49361bd9-a4b3-4db7-9768-d9dd0238a2ac" href="/neovim/neovim/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
@@ -1806,7 +1806,7 @@ Run..." />
         </div>
   </div>
   <div class="d-flex mb-3" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame">
-                      <details class="details-reset details-overlay position-relative" id="tag-select-menu-5c1a754c-ebc2-11ef-8240-d624158031a9">
+                      <details class="details-reset details-overlay position-relative" id="tag-select-menu-4dd71b9c-ec36-11ef-9278-6f57f8d58749">
     <summary data-view-component="true" class="btn-sm btn text-left">    <i></i><span data-menu-button="">Compare</span><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down ml-2 mr-n1">
     <path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path>
 </svg>
@@ -1815,7 +1815,7 @@ Run..." />
     <div class="SelectMenu-modal">
       <header class="SelectMenu-header">
         <span class="SelectMenu-title">Choose a tag to compare</span>
-        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-5c1a754c-ebc2-11ef-8240-d624158031a9">
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="tag-select-menu-4dd71b9c-ec36-11ef-9278-6f57f8d58749">
           <svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
@@ -1836,7 +1836,7 @@ Run..." />
       <ref-selector
         type="tag"
         query-endpoint="/neovim/neovim/refs"
-        cache-key="v0:1739596362.0"
+        cache-key="v0:1739682712.0"
         current-committish="c3RhYmxl"
         default-branch="bWFzdGVy"
         
@@ -2049,12 +2049,12 @@ dceeb8301f64e244e3e2dffaedbb153bd01c0c6ecb5024a90e3172dc8e65555c  nvim-win64.zip
 
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container has-reactions d-flex">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-pick-reaction" data-turbo="false" action="/neovim/neovim/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="2DCXqBqOoXdfyIhjajq29y9lD2J1_M1boi2DnVmW8o5RJ6BCkoZF1_lwvXxnlBhsMhViJkD0WbcFs6NeUpeXxA" autocomplete="off" />
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-pick-reaction" data-turbo="false" action="/neovim/neovim/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="MMk8tf9ZmjVss11QGvOUObQUlJT1fm7L-9Y3XZyFj2sb4XyZ4s43hBlM9L_RijDnGcZ9gK6wshrua4zj7UMqhg" autocomplete="off" />
     <input type="hidden" name="input[subjectId]" value="RE_kwDOAPphoM4LwvaF">
     <div  class="js-comment-reactions-options d-flex flex-items-center flex-row flex-wrap">
-          <button name="input[content]" id="reactions--reaction_button_component-d7b557" value="HEART react" data-button-index-position="5" data-reaction-label="Heart" data-reaction-content="heart" aria-pressed="false" aria-label="heart (3): github-actions[bot], 10:10AM on January 29" type="submit" disabled="disabled" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">    <g-emoji alias="heart" fallback-src="https://github.githubassets.com/assets/2764-982dc91ea48a.png" class="social-button-emoji">❤️</g-emoji>
+          <button name="input[content]" id="reactions--reaction_button_component-303e29" value="HEART react" data-button-index-position="5" data-reaction-label="Heart" data-reaction-content="heart" aria-pressed="false" aria-label="heart (3): github-actions[bot], 10:10AM on January 29" type="submit" disabled="disabled" data-view-component="true" class="social-reaction-summary-item js-reaction-group-button btn-link d-flex no-underline color-fg-muted flex-items-baseline mr-2">    <g-emoji alias="heart" fallback-src="https://github.githubassets.com/assets/2764-982dc91ea48a.png" class="social-button-emoji">❤️</g-emoji>
             <span class="js-discussion-reaction-group-count">3</span>
-</button>  <tool-tip id="tooltip-94220a06-bcdd-42b8-8a2a-059119d587ab" for="reactions--reaction_button_component-d7b557" popover="manual" data-direction="n" data-type="description" data-view-component="true" class="sr-only position-absolute">peterhirn, AjayKMehta, and seuristic reacted with heart emoji</tool-tip>
+</button>  <tool-tip id="tooltip-889d5d23-8c63-4d94-84d5-38560221f428" for="reactions--reaction_button_component-303e29" popover="manual" data-direction="n" data-type="description" data-view-component="true" class="sr-only position-absolute">peterhirn, AjayKMehta, and seuristic reacted with heart emoji</tool-tip>
       <div class="js-reactions-container">
         <details class="dropdown details-reset details-overlay d-inline-block js-all-reactions-popover" hidden>
           <summary aria-haspopup="true" data-view-component="true" class="Button--link Button--medium Button">  <span class="Button-content">

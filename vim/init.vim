@@ -9,8 +9,8 @@ set incsearch
 set showmatch
 syntax on
 set shiftwidth=4
+set expandtab
 set tabstop=4
 set cindent
-set smartindent
 vnoremap <C-c> "+y
 vnoremap <C-v> "+p
