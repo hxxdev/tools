@@ -1,3 +1,8 @@
+-- Neovide
+if vim.g.neovide then
+    -- Put anything you want to happen only in Neovide here
+end
+
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
