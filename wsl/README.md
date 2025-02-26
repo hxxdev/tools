@@ -7,9 +7,6 @@
 4-1. WSL for Linux  
 4-2. Virtual Machine Platform  
 4-3. Windows Hypervisor Platform  
-5. Turn on `Virtualization` in BIOS settings.  
-6. You are good to go.  
-
-## Setup nvim
-Copy `init.vim` into `~/.config/nvim/init.vim`.
-
+5. Turn on `Virtualization` in BIOS settings.
+6. Now you can launch `WSL` in your `Windows`.
+7. run `sudo passwd --delete hxxdev` to disable password.
