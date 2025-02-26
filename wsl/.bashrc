@@ -1,8 +1,8 @@
 # enable windows .exe launch in wsl environment
 export PATH_WIN="/mnt/c"
 export PATH_DEV="/home/hxxdev/dev"
-sudo echo :WindowsBatch:E::bat::/init: | sudo tee /proc/sys/fs/binfmt_misc/register
-sudo echo ":WSLInterop:M::MZ::/init:" | sudo tee /proc/sys/fs/binfmt_misc/register
+echo :WindowsBatch:E::bat::/init:  | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
+echo ":WSLInterop:M::MZ::/init:"   | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -122,7 +122,7 @@ if ! shopt -oq posix; then
 fi
 
 # Some better definitions
-alias cp="cp"                           # confirm before overwriting something
+alias cp="cp -i"                        # confirm before overwriting something
 alias df='df -h'                        # human-readable sizes
 alias du='du -m'                     	# show sizes in MB
 alias vi='vim'
