@@ -1,11 +1,9 @@
 # enable windows .exe launch in wsl environment
+echo :WindowsBatch:E::bat::/init:   | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
+echo :WSLInterop:M::MZ::/init:      | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
+
 export PATH_WIN="/mnt/c"
 export PATH_DEV="/home/hxxdev/dev"
-echo :WindowsBatch:E::bat::/init:  | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
-echo ":WSLInterop:M::MZ::/init:"   | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
-
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 
 # If not running interactively, don't do anything
 case $- in
@@ -125,7 +123,8 @@ fi
 alias cp="cp -i"                        # confirm before overwriting something
 alias df='df -h'                        # human-readable sizes
 alias du='du -m'                     	# show sizes in MB
-alias vi='vim'
+alias vi='nvim'
+alias g='~/dev/tools/vim/neovide.exe --wsl'
 alias ls='ls --color=auto'
 alias ll='ls -all --color=auto'
 alias ..='cd ..'
@@ -138,7 +137,7 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias vi="nvim"
+
 unzip ()
 {
   if [ -f $1 ] ; then
