@@ -1,11 +1,13 @@
 # Setting up neovim
 For latest version of nvim, run  
-`curl -LO https://github.com/neovim/neovim/releases/tag/stable/nvim.appimage`  
-1. `sudo apt install libfuse2`
-2. `mkdir -p /opt/nvim/`
-3. `mv nvim.appimage /opt/nvim/nvim`
-4. `cp init.lua init.vim ~/.config/nvim/`
-5. `vi`
-6. `:MarkdownPreview`
-7. If any error, run `:call mkdp#util#install()`
+1. Add C:\WINDOWS\system32 to your Windows system environment `Path`. 
+This is for setting system clipboard as your vim clipboard.
+2. `sudo snap install nvim --classic`
+3. `cp -r nvim ~/.config/nvim/`
+4. Install `Hack` fonts in `Windows`.
+5. Press `Ctrl ,`
+6. Set the terminal font to `Hack Nerd Font`.
+7. `vi`
+8. `:MarkdownPreview`
+9. If any error, run `:call mkdp#util#install()`
 
