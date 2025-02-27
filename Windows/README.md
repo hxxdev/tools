@@ -21,3 +21,7 @@ Change `ProfileImagePath` to C:\Users\<username you want>
 4. Change user folder name
 Run cmd in administrator mode
 run mklink /d "C:\Users\<old username>" "C:\Users\<new username>"
+
+- Disabling Windows Update
+1. run `disable updates.bat`
+2. To enable again, run `enable updates.bat`
