@@ -1,3 +1,4 @@
+echo "Welcome, $USER"
 # enable windows .exe launch in wsl environment
 echo :WindowsBatch:E::bat::/init:   | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
 echo :WSLInterop:M::MZ::/init:      | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
