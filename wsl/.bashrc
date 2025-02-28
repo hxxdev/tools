@@ -128,10 +128,18 @@ alias vi='nvim'
 alias g='~/dev/tools/vim/neovide.exe --wsl'
 alias ls='ls --color=auto'
 alias ll='ls -all --color=auto'
-alias ..='cd ..'
-alias ...='cd ..; cd ..'
-alias ....='cd ..; cd ..; cd..'
-alias .....='cd ..; cd ..; cd..; cd..'
+function cd() {
+    new_directory="$*";
+    if [ $# -eq 0 ]; then 
+        new_directory=${HOME};
+    fi;
+    builtin cd "${new_directory}" && ls
+}
+alias cd='cd'
+alias ..='builtin cd ..;ls'
+alias ...='builtin cd ..; builtin cd ..;ls'
+alias ....='builtin cd ..; builtin cd ..; builtin cd..;ls'
+alias .....='builtin cd ..; builtin cd ..; builtin cd..; builtin cd..;ls'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
 
