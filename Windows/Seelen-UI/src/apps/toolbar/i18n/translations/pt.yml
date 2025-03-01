@@ -1,0 +1,85 @@
+context_menu:
+  add_module: Adicione módulo
+  remove: Remova o módulo
+  reorder_disable: Barra de ferramentas de bloqueio
+  reorder_enable: Desbloqueie a barra de ferramentas
+  settings: Configurações
+  task_manager: Gerenciador de tarefas
+keyboard:
+  more: Mais configurações de teclado
+  title: Layout do teclado
+media:
+  default_multimedia_volume: Volume multimídia
+  device:
+    channel:
+      system: Sons do sistema
+    comunications: Comunicações
+    missing: Dispositivo ausente
+    mixer: Misturador de volume
+    multimedia: Multimídia
+    settings: Mais configurações de dispositivo
+    volume: Volume do dispositivo
+  input_devices: Dispositivos de entrada
+  output_devices: Dispositivos de saída
+  players: Reprodutores de mídia
+network:
+  available: Redes disponíveis
+  connect: Conectar
+  connected: Conectado a
+  disconnect: desconectar
+  hidden: Rede Oculta
+  more: Mais configurações de rede
+  not_found: Nenhuma rede encontrada
+  placeholder:
+    password: Senha
+  saved: Redes salvas
+  scanning: Procurando redes
+  secured: Rede criptografada
+notifications:
+  clear: Limpar tudo
+  empty: Sem notificações
+  settings: Mais configurações de notificações
+  title: Notificações
+placeholder:
+  battery_remaining: '% restante'
+  bluetooth_devices: Bluetooth
+  ethernet_connected: Acesso à internet
+  ethernet_disconnected: Sem acesso à internet
+  notifications: Notificações
+  open_system_tray: Abra a bandeja do sistema
+  settings: Configurações rápidas
+  smart_charge: '- Carga Inteligente'
+  volume: Volume
+settings:
+  app_settings: Configurações do aplicativo
+  brightness: Brilho
+  hibernate: Hibernado
+  lock: Trancar
+  log_out: Sair
+  power: Energia
+  restart: Reiniciar
+  shutdown: Desligar
+  sleep: Dormir
+  title: Configurações
+unlabelled_tray: Ícone de bandeja não marcada
+userhome:
+  empty_list: Sem itens
+  folders:
+    desktop: Desktop
+    documents: Documentos
+    downloads: Downloads
+    more_items: Mostre mais ...
+    music: Música
+    pictures: Fotos
+    recent: Usado recentemente
+    reduce_items: Mostrar menos ...
+    title: Diretórios de usuário
+    videos: Vídeos
+  profile:
+    accounts: Abra as configurações da conta
+    open_onedrive: Open OneDrive Directory
+    open_user_folder: Diretório de usuário aberto
+  seelen_options:
+    open_installation_folder: Pasta de configurações de Seelen abra Seelen
+    open_log_folder: Pasta de log de Seelen aberta
+    title: Diretórios de Seelen

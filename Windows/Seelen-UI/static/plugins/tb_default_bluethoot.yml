@@ -1,0 +1,8 @@
+id: "@default/bluetooth"
+icon: "TbBluetooth"
+target: "@seelen/fancy-toolbar"
+plugin:
+  type: bluetooth
+  template: icon.TbBluetoothConnected
+  tooltip: t("placeholder.bluetooth_devices")
+  withBluetoothSelector: true

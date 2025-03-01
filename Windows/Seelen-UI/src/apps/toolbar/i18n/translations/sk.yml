@@ -1,0 +1,85 @@
+context_menu:
+  add_module: Pridať modul
+  remove: Odstrániť modul
+  reorder_disable: Uzamknutie panela nástrojov
+  reorder_enable: Odomknutie panela nástrojov
+  settings: Nastavenia
+  task_manager: Správca úloh
+keyboard:
+  more: Ďalšie nastavenia klávesnice
+  title: Rozloženie klávesnice
+media:
+  default_multimedia_volume: Multimediálny objem
+  device:
+    channel:
+      system: Zvuky systému
+    comunications: Komunikácia
+    missing: Chýbajúce zariadenie
+    mixer: Zmiešavač hlasitosti
+    multimedia: Multimédiá
+    settings: Ďalšie nastavenia zariadenia
+    volume: Objem zariadenia
+  input_devices: Vstupné zariadenia
+  output_devices: Výstupné zariadenia
+  players: Médiá
+network:
+  available: Dostupné siete
+  connect: Pripojiť
+  connected: Pripojené k
+  disconnect: Odpojiť
+  hidden: Skrytá sieť
+  more: Viac nastavení siete
+  not_found: Nenašli sa žiadne siete
+  placeholder:
+    password: Heslo
+  saved: Uložené siete
+  scanning: Skenovanie sietí
+  secured: Šifrovaná sieť
+notifications:
+  clear: Vymazať všetko
+  empty: Žiadne oznámenia
+  settings: Ďalšie nastavenia oznámení
+  title: Oznámenia
+placeholder:
+  battery_remaining: zostávajúci % %
+  bluetooth_devices: Bluetooth a zariadenia
+  ethernet_connected: Prístup na internet
+  ethernet_disconnected: Žiadny prístup na internet
+  notifications: Oznámenia
+  open_system_tray: Podnos otvorených systémov
+  settings: Rýchle nastavenia
+  smart_charge: '- Inteligentný poplatok'
+  volume: Zväzok
+settings:
+  app_settings: Nastavenia aplikácií
+  brightness: Jas
+  hibernate: Hibernácia
+  lock: Zámok
+  log_out: Odhlásiť sa
+  power: Moc
+  restart: Reštart
+  shutdown: Vypnúť
+  sleep: Spať
+  title: nastavenie
+unlabelled_tray: Ikona neznačeného podnosu
+userhome:
+  empty_list: Žiadne položky
+  folders:
+    desktop: Stolný počítač
+    documents: Dokumenty
+    downloads: Na stiahnutie
+    more_items: Zobraziť viac...
+    music: Hudba
+    pictures: Obrázky
+    recent: Nedávno použité
+    reduce_items: Zobraziť menej...
+    title: Adresáre používateľov
+    videos: Videá
+  profile:
+    accounts: Nastavenia otvoreného účtu
+    open_onedrive: Otvorenie adresára OneDrive
+    open_user_folder: Otvorenie používateľského adresára
+  seelen_options:
+    open_installation_folder: Otvorte priečinok s nastaveniami Seelen
+    open_log_folder: Otvorte priečinok denníka Seelen
+    title: Adresáre Seelen

@@ -1,0 +1,85 @@
+context_menu:
+  add_module: Adjon hozzá modult
+  remove: Távolítsa el a modult
+  reorder_disable: Eszköztár zárolása
+  reorder_enable: Eszköztár feloldása
+  settings: Beállítások elemre
+  task_manager: Feladatkezelő
+keyboard:
+  more: További billentyűzetbeállítások
+  title: Billentyűzet elrendezése
+media:
+  default_multimedia_volume: Multimédia hangerő
+  device:
+    channel:
+      system: Rendszerhangok
+    comunications: Kommunikáció
+    missing: Hiányzó eszköz
+    mixer: Hangerő keverő
+    multimedia: Multimédia
+    settings: További eszközbeállítások
+    volume: Eszköz hangereje
+  input_devices: Bemeneti eszközök
+  output_devices: Kimeneti eszközök
+  players: Médialejátszók
+network:
+  available: Elérhető hálózatok
+  connect: Összekapcsol
+  connected: Csatlakozva a következőhöz
+  disconnect: Leválaszt
+  hidden: Rejtett hálózat
+  more: További hálózati beállítások
+  not_found: Nincsenek hálózatok nem találtak
+  placeholder:
+    password: Jelszó
+  saved: Mentett hálózatok
+  scanning: Hálózatok keresése
+  secured: Titkosított hálózat
+notifications:
+  clear: Mindent törölni
+  empty: Nincsenek értesítések
+  settings: További értesítések beállításai
+  title: Értesítések
+placeholder:
+  battery_remaining: '% megmaradt'
+  bluetooth_devices: Bluetooth & eszközök
+  ethernet_connected: internet-hozzáférés
+  ethernet_disconnected: Nincs internet hozzaferes
+  notifications: Értesítések
+  open_system_tray: Nyitott rendszer tálca
+  settings: Gyors beállítások
+  smart_charge: '- Intelligens töltés'
+  volume: Hangerő
+settings:
+  app_settings: Alkalmazásbeállítások
+  brightness: Fényerő
+  hibernate: Hibernálás
+  lock: Lock
+  log_out: Kijelentkezés
+  power: Hatalom
+  restart: Újrakezd
+  shutdown: Leállitás
+  sleep: Alvás
+  title: Beállítások
+unlabelled_tray: Jelöletlen tálca ikon
+userhome:
+  empty_list: Nincsenek tételek
+  folders:
+    desktop: Asztali
+    documents: Dokumentumok
+    downloads: Letöltések
+    more_items: További részletek...
+    music: Zene
+    pictures: Képek
+    recent: Nemrégiben használt
+    reduce_items: Kevesebb mutatása...
+    title: Felhasználói könyvtárak
+    videos: Videók
+  profile:
+    accounts: Nyitott számla beállításai
+    open_onedrive: OneDrive könyvtár megnyitása
+    open_user_folder: Felhasználói könyvtár megnyitása
+  seelen_options:
+    open_installation_folder: Nyissa meg a Seelen beállítások mappát
+    open_log_folder: Nyissa meg a Seelen log mappát
+    title: Seelen könyvtárak

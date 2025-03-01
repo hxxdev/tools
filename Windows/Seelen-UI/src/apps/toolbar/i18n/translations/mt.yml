@@ -1,0 +1,85 @@
+context_menu:
+  add_module: Żid il-modulu
+  remove: Neħħi l-modulu
+  reorder_disable: Lock Toolbar
+  reorder_enable: Nisfruttaw toolbar
+  settings: Settings
+  task_manager: Task Manager
+keyboard:
+  more: Aktar settings tat-tastiera
+  title: Tqassim tat-tastiera
+media:
+  default_multimedia_volume: Volum multimedjali
+  device:
+    channel:
+      system: Ħsejjes tas-sistema
+    comunications: Komunikazzjonijiet
+    missing: Apparat nieqes
+    mixer: Volum Mixer
+    multimedia: Multimedja
+    settings: Aktar settings tal-apparat
+    volume: Volum tal-Apparat
+  input_devices: Apparat ta 'input
+  output_devices: Apparat tal-ħruġ
+  players: Plejers tal-midja
+network:
+  available: Netwerks disponibbli
+  connect: Qabbad
+  connected: Konnessi ma'
+  disconnect: Skonnettja
+  hidden: Netwerk moħbi
+  more: Aktar settings tan-netwerk
+  not_found: Ma nstabu l-ebda netwerks
+  placeholder:
+    password: Password
+  saved: Netwerks salvati
+  scanning: Skennjar għal netwerks
+  secured: Netwerk kriptat
+notifications:
+  clear: Ċar kollox
+  empty: L-ebda notifika
+  settings: Aktar settings ta 'notifiki
+  title: Notifiki
+placeholder:
+  battery_remaining: '% jibqa '''
+  bluetooth_devices: Bluetooth & Apparat
+  ethernet_connected: Aċċess għall-Internet
+  ethernet_disconnected: L-ebda aċċess għall-internet
+  notifications: Notifiki
+  open_system_tray: Tray tas-Sistema Miftuħa
+  settings: Settings ta 'malajr
+  smart_charge: '- ħlas intelliġenti'
+  volume: Volum
+settings:
+  app_settings: Settings tal-App
+  brightness: Luminożità
+  hibernate: Hibernate
+  lock: Lock
+  log_out: Oħroġ
+  power: Qawwa
+  restart: Erġa ibda
+  shutdown: Għalaq
+  sleep: Irqad
+  title: Settings
+unlabelled_tray: Ikona tat-trej mhux immarkata
+userhome:
+  empty_list: L-ebda oġġetti
+  folders:
+    desktop: Desktop
+    documents: Dokumenti
+    downloads: Downloads
+    more_items: Uri aktar ...
+    music: Mużika
+    pictures: Stampi
+    recent: Reċentement użat
+    reduce_items: Uri inqas ...
+    title: Direttorji tal-utent
+    videos: Vidjows
+  profile:
+    accounts: Settings tal-kont miftuħ
+    open_onedrive: Open OneDrive Directory
+    open_user_folder: Direttorju tal-Utent miftuħ
+  seelen_options:
+    open_installation_folder: Iftaħ il-folder tas-settings Seelen
+    open_log_folder: Iftaħ Seelen Log Folder
+    title: Direttorji Seelen

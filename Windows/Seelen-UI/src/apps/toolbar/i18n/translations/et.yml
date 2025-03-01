@@ -1,0 +1,85 @@
+context_menu:
+  add_module: Lisage moodul
+  remove: Eemaldage moodul
+  reorder_disable: Tööriistariba lukustamine
+  reorder_enable: Tööriistariba avamine
+  settings: Seaded
+  task_manager: Tegumihaldur
+keyboard:
+  more: Rohkem klaviatuuri seadeid
+  title: Klaviatuuri paigutus
+media:
+  default_multimedia_volume: Multimeedia maht
+  device:
+    channel:
+      system: Süsteemi helid
+    comunications: Suhtlus
+    missing: Puuduv seade
+    mixer: Helitugevuse segisti
+    multimedia: Multimeedia
+    settings: Rohkem seadme seaded
+    volume: Seadme maht
+  input_devices: Sisendseadmed
+  output_devices: Väljundseadmed
+  players: Meediamängijad
+network:
+  available: Saadaolevad võrgud
+  connect: Ühendama
+  connected: 'Ühendatud:'
+  disconnect: Ühenduse katkestama
+  hidden: Varjatud võrk
+  more: Rohkem võrguseadeid
+  not_found: Võrgustikke pole leitud
+  placeholder:
+    password: Parool
+  saved: Salvestatud võrgud
+  scanning: Võrkude otsimine
+  secured: Krüpteeritud võrk
+notifications:
+  clear: Tühjenda kõik
+  empty: Teated puuduvad
+  settings: Rohkem teavituste seadistusi
+  title: Teated
+placeholder:
+  battery_remaining: '% järelejäänud'
+  bluetooth_devices: Bluetooth ja seadmed
+  ethernet_connected: internetiühendus
+  ethernet_disconnected: Interneti -ühendus pole
+  notifications: Teatised
+  open_system_tray: Avatud süsteemialus
+  settings: Kiired seaded
+  smart_charge: '- Nutikas tasu'
+  volume: Maht
+settings:
+  app_settings: Rakenduse sätted
+  brightness: Heledus
+  hibernate: Hibernate
+  lock: Lock
+  log_out: Logi välja
+  power: Võimsus
+  restart: Taaskäivita
+  shutdown: Lülita välja
+  sleep: Magama
+  title: Sätted
+unlabelled_tray: Märgistamata salveikoon
+userhome:
+  empty_list: Puuduvad esemed
+  folders:
+    desktop: Töölauaarvuti
+    documents: Dokumendid
+    downloads: Allalaadimine
+    more_items: Näita rohkem...
+    music: Muusika
+    pictures: Pildid
+    recent: Hiljuti kasutatud
+    reduce_items: Näita vähem...
+    title: Kasutajate kataloogid
+    videos: Videod
+  profile:
+    accounts: Avatud konto seaded
+    open_onedrive: Avage OneDrive'i kataloog
+    open_user_folder: Avatud kasutajakataloog
+  seelen_options:
+    open_installation_folder: Avage Seeleni seadete kaust
+    open_log_folder: Avage Seelen logi kaust
+    title: Seelen kataloogid

@@ -1,0 +1,34 @@
+id: '@default/power'
+icon: 'PiBatteryMediumFill'
+target: '@seelen/fancy-toolbar'
+plugin:
+  type: power
+  tooltip: >-
+    concat(string(battery.percentage), t("placeholder.battery_remaining"), battery.smartCharging ? t("placeholder.smart_charge") : "")
+  template: >-
+    concat(
+      string(power.acLineStatus == 1 or equalText(battery.state, "charging") ? concat(getIcon("BsFillLightningChargeFill", 12), " ") : ""),
+      string(
+        power.systemStatusFlag == 1 or equalText(powerPlan, "BetterBattery")
+        ? concat(getIcon("FaLeaf", 12), " ") 
+        : equalText(powerPlan, "HighPerformance") or equalText(powerPlan, "MaxPerformance")
+        ? concat(getIcon("IoSpeedometer", 12), " ") 
+        : ""
+      ),
+      string(battery.smartCharging ? concat(getIcon("FaHeart", 12), " ") : ""),
+      string(
+        battery.percentage > 90
+        ? icon.PiBatteryFullFill
+        : battery.percentage > 66
+        ? icon.PiBatteryHighFill
+        : battery.percentage > 33
+        ? icon.PiBatteryMediumFill
+        : battery.percentage > 5
+        ? icon.PiBatteryLowFill
+        : icon.PiBatteryWarning
+      ),
+      "  ",
+      string(battery.percentage),
+      "%"
+    )
+  onClickV2: open("ms-settings:powersleep")

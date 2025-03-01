@@ -1,0 +1,85 @@
+context_menu:
+  add_module: Lägg till modul
+  remove: Ta bort modulen
+  reorder_disable: Lås verktygsfältet
+  reorder_enable: Lås upp verktygsfältet
+  settings: Inställningar
+  task_manager: Task Manager
+keyboard:
+  more: Fler inställningar för tangentbord
+  title: Layout för tangentbord
+media:
+  default_multimedia_volume: Multimedia Volym
+  device:
+    channel:
+      system: Systemljud
+    comunications: Kommunikation
+    missing: Saknad enhet
+    mixer: Volymmixer
+    multimedia: Multimedia
+    settings: Fler enhetsinställningar
+    volume: Enhetens volym
+  input_devices: Inmatningsenheter
+  output_devices: Utmatningsenheter
+  players: Mediaspelare
+network:
+  available: Tillgängliga nätverk
+  connect: Ansluta
+  connected: Ansluten till
+  disconnect: Koppla ifrån
+  hidden: Doldnätverk
+  more: Fler nätverksinställningar
+  not_found: Inga nätverk hittades
+  placeholder:
+    password: Lösenord
+  saved: Sparade nätverk
+  scanning: Söker efter nätverk
+  secured: Krypterat nätverk
+notifications:
+  clear: Rensa alla
+  empty: Inga meddelanden
+  settings: Fler inställningar för aviseringar
+  title: Meddelanden
+placeholder:
+  battery_remaining: '% återstående'
+  bluetooth_devices: Bluetooth & enheter
+  ethernet_connected: internetåtkomst
+  ethernet_disconnected: Ingen internetuppkoppling
+  notifications: Meddelanden
+  open_system_tray: Öppet system
+  settings: Snabbinställningar
+  smart_charge: '- Smart laddning'
+  volume: Volym
+settings:
+  app_settings: App inställningar
+  brightness: Ljusstyrka
+  hibernate: Hibernate
+  lock: Lås
+  log_out: Logga ut
+  power: Driva
+  restart: Omstart
+  shutdown: Stänga av
+  sleep: Sova
+  title: inställningar
+unlabelled_tray: Omärkta fackikon
+userhome:
+  empty_list: Inga föremål
+  folders:
+    desktop: Skrivbord
+    documents: Dokument
+    downloads: Nedladdningar
+    more_items: Visa mer...
+    music: Musik
+    pictures: Bilder
+    recent: Nyligen använt
+    reduce_items: Visa mindre...
+    title: Användarkataloger
+    videos: Videor
+  profile:
+    accounts: Öppna kontoinställningar
+    open_onedrive: Öppna OneDrive-katalogen
+    open_user_folder: Öppna användarkatalogen
+  seelen_options:
+    open_installation_folder: Öppna Seelens inställningsmapp
+    open_log_folder: Öppna Seelen loggmapp
+    title: Seelen kataloger
