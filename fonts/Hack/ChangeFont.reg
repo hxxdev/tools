@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+; .ttf file mandatory
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"="HackNerdFont-Bold.ttf"
+"Segoe UI Black (TrueType)"="HackNerdFont-Black.ttf"
+"Segoe UI Black Italic (TrueType)"="HackNerdFont-Italic.ttf"
+"Segoe UI Bold (TrueType)"="HackNerdFont-Bold.ttf"
+"Segoe UI Bold Italic (TrueType)"="HackNerdFont-BoldItalic.ttf"
+"Segoe UI Emoji (TrueType)"="seguiemj.ttf"
+"Segoe UI Historic (TrueType)"="seguihis.ttf"
+"Segoe UI Italic (TrueType)"="HackNerdFont-BoldItalic.ttf"
+"Segoe UI Light (TrueType)"="HackNerdFont-Regular.ttf"
+"Segoe UI Light Italic (TrueType)"="HackNerdFont-Italic.ttf"
+"Segoe UI Semibold (TrueType)"="HackNerdFont-Bold.ttf"
+"Segoe UI Semibold Italic (TrueType)"="HackNerdFont-BoldItalic.ttf"
+"Segoe UI Semilight (TrueType)"="HackNerdFont-Regular.ttf"
+"Segoe UI Semilight Italic (TrueType)"="HackNerdFont-Italic.ttf"
+"Segoe UI Symbol (TrueType)"="seguisym.ttf"
+"Segoe MDL2 Assets (TrueType)"="segmdl2.ttf"
+"Segoe Print (TrueType)"="segoepr.ttf"
+"Segoe Print Bold (TrueType)"="segoeprb.ttf"
+"Segoe Script (TrueType)"="segoesc.ttf"
+"Segoe Script Bold (TrueType)"="segoescb.ttf"
+
+; here font names (check in Notepad -> font)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+
+"Segoe UI"="Hack Nerd Font"
+"Arial"="Hack Nerd Font"
+"Times New Roman"="Hack Nerd Font"
