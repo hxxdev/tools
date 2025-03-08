@@ -30,12 +30,12 @@
 - Authentication Type : Password
 
 #### How to restart ssh server
-1. `sudo systemctl stop ssh`
-2. `sudo systemctl stop ssh.socket`
-3. `sudo systemctl enable ssh`
-4. `sudo systemctl start ssh`
-5. `sudo systemctl status ssh`
-- It is was done successfully, it should llook something like this:
+1. `sudo systemctl daemon-reload`
+2. `sudo systemctl disable ssh.socket`
+3. `sudo systemctl stop ssh.socket`
+4. `sudo systemctl enable ssh.service`
+5. `sudo systemctl start ssh.service`
+- It is was done successfully, `sudo systemctl status ssh` should llook something like this:
 ```
      Loaded: loaded (/usr/lib/systemd/system/ssh.service; enabled; preset: enabled)
      Active: active (running) since Sat 2025-03-01 01:38:04 KST; 2min 11s ago
