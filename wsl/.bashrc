@@ -12,10 +12,10 @@ export PATH_DEV="/home/hxxdev/dev"
 shopt -s extglob
 
 # start github.io localhost:4000 server
-pushd .
+pushd . > /dev/null 2>&1
 cd $PATH_DEV/hxxdev.github.io
 bundle exec jekyll serve > /dev/null 2>&1 &
-popd
+popd > /dev/null 2>&1
 
 # If not running interactively, don't do anything
 case $- in
@@ -186,6 +186,7 @@ alias godev='cd ~/dev/'
 alias gohack='cd ~/dev/hack_playground/'
 
 # ruby related
+export RUBYOPT='-W0'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
