@@ -10,7 +10,7 @@
 5. Turn on `Virtualization` in BIOS settings.
 6. Now you can launch `WSL` in your `Windows`.
 7. run `sudo passwd --delete hxxdev` to disable password.
-
+--------------------------------
 ### Setting up SSH with WSL
 1. `sudo apt update`
 2. `sudo apt install g++ gdb make ninja-build rsync zip`
@@ -21,13 +21,6 @@
 - `PasswordAuthentication yes`
 5. `sudo service ssh start`
 6. `sudo systemctl enable ssh`
-7. In Visual Studio, navigate to `Tools > Options` in menu bar.
-8. Navigate to `Cross Platform > Connection Manager`.
-9. Choose `Add` button.
-- Host Name : `localhost`
-- Port : `22`
-- Username : `<your wsl username>`
-- Authentication Type : Password
 
 #### How to restart ssh server
 1. `sudo systemctl daemon-reload`
@@ -35,8 +28,9 @@
 3. `sudo systemctl stop ssh.socket`
 4. `sudo systemctl enable ssh.service`
 5. `sudo systemctl start ssh.service`
-- It is was done successfully, `sudo systemctl status ssh` should llook something like this:
+- It is was done successfully, `sudo systemctl status ssh` should look something like this:
 ```
      Loaded: loaded (/usr/lib/systemd/system/ssh.service; enabled; preset: enabled)
      Active: active (running) since Sat 2025-03-01 01:38:04 KST; 2min 11s ago
 ```
+--------------------------------
