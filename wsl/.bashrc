@@ -1,10 +1,21 @@
 echo "Welcome, $USER"
+
 # enable windows .exe launch in wsl environment
 echo :WindowsBatch:E::bat::/init:   | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
 echo :WSLInterop:M::MZ::/init:      | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
 
+# add some variables
 export PATH_WIN="/mnt/c"
 export PATH_DEV="/home/hxxdev/dev"
+
+# expand regex in command
+shopt -s extglob
+
+# start github.io localhost:4000 server
+pushd .
+cd $PATH_DEV/hxxdev.github.io
+bundle exec jekyll serve > /dev/null 2>&1 &
+popd
 
 # If not running interactively, don't do anything
 case $- in
@@ -120,7 +131,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Some better definitions
+# Some better aliases
 alias cp="cp -i"                        # confirm before overwriting something
 alias df='df -h'                        # human-readable sizes
 alias du='du -m'                     	# show sizes in MB
@@ -173,3 +184,8 @@ unzip ()
 
 alias godev='cd ~/dev/'
 alias gohack='cd ~/dev/hack_playground/'
+
+# ruby related
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
