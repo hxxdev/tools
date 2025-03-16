@@ -8,12 +8,15 @@ return {
     },
     {   dir = "~/.config/nvim/lua/plugins/noice.nvim",
         event = "VeryLazy",
-        opts = {  -- add any options here
-        },
+        opts = {},
         dependencies = {
         	{dir = "~/.config/nvim/lua/plugins/nui.nvim"},
         
         	{dir = "~/.config/nvim/lua/plugins/nvim-notify"},
         }  
+    },
+    {   dir = "~/.config/nvim/lua/plugins/image.nvim",
+        build = false,
+        opts = {}
     },
 }
