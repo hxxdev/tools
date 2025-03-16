@@ -11,12 +11,6 @@ export PATH_DEV="/home/hxxdev/dev"
 # expand regex in command
 shopt -s extglob
 
-# start github.io localhost:4000 server
-pushd . > /dev/null 2>&1
-cd $PATH_DEV/hxxdev.github.io
-bundle exec jekyll serve > /dev/null 2>&1 &
-popd > /dev/null 2>&1
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
