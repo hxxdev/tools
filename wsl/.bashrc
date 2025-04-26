@@ -1,4 +1,4 @@
-echo "Welcome, $USER"
+# echo "Welcome, $USER"
 
 # enable windows .exe launch in wsl environment
 echo :WindowsBatch:E::bat::/init:   | sudo tee /proc/sys/fs/binfmt_misc/register > /dev/null 2>&1
@@ -129,7 +129,7 @@ fi
 alias cp="cp -i"                        # confirm before overwriting something
 alias df='df -h'                        # human-readable sizes
 alias du='du -m'                     	# show sizes in MB
-alias vi='nvim'
+alias vi='/home/linuxbrew/.linuxbrew/bin/nvim'
 alias g='~/dev/tools/vim/neovide.exe --wsl'
 alias ls='ls --color=auto'
 alias ll='ls -all --color=auto'
@@ -177,10 +177,19 @@ unzip ()
 
 
 alias godev='cd ~/dev/'
-alias gohack='cd ~/dev/hack_playground/'
+alias gohack='cd ~/dev/hack_playground/; source env.sh'
+alias gohxx='cd ~/dev/hxxdev.github.io'
+alias goasm='cd ~/dev/assembly_playground;source env.sh'
 
 # ruby related
 export RUBYOPT='-W0'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+. "$HOME/.cargo/env"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
