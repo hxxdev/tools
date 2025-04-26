@@ -1,13 +1,17 @@
 # Setting up neovim
-For latest version of nvim, run  
-1. Add C:\WINDOWS\system32 to your Windows system environment `Path`. 
-This is for setting system clipboard as your vim clipboard.
-2. `sudo snap install nvim --classic`
-3. `cp -r nvim ~/.config/nvim/`
-4. Install `Hack` fonts in `Windows`.
-5. Press `Ctrl ,`
-6. Set the terminal font to `Hack Nerd Font`.
-7. `vi`
-8. `:MarkdownPreview`
-9. If any error, run `:call mkdp#util#install()`
-
+1. `cp -r vim-plug /home/linuxbrew/.linuxbrew/Cellar/neovim/0.11.0/share/nvim/runtime/autoload`
+2. `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
+3. `command -v nvm`
+4. run `nvm install --lts` and install the current stable LTS release of Node.js.
+5. run `node --version` to validate Node.js installation.
+6. `exec $SHELL`
+7.
+```shell
+sudo npm install tslib
+npm install neovim
+sudo npm install neovim
+sudo npm install @chemzqm/neovim
+sudo npm install log4js
+sudo npm install socket.io
+sudo npm install msgpack-lite
+```

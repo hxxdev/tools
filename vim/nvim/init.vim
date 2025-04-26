@@ -1,4 +1,7 @@
+source ~/.config/nvim/plugins.vim
+
 lua require('init')
+
 set number
 set history=1000
 set mouse=a
@@ -7,14 +10,18 @@ set ruler
 set hlsearch
 set incsearch
 set showmatch
+set encoding=utf-8
+set fileencodings=utf-8,cp949
+colorscheme vim
 syntax on
+filetype on
 set shiftwidth=4
 set expandtab
 set tabstop=4
 set cindent
 vnoremap <C-c> "+y
 nnoremap <C-v> "+p
-
+nmap <C-m> <Plug>MarkdownPreview
 let g:clipboard = {
     \   'name': 'WslClipboard',
     \   'copy': {
