@@ -178,7 +178,7 @@ unzip ()
 
 alias godev='cd ~/dev/'
 alias gohack='cd ~/dev/hack_playground/; source env.sh'
-alias gohxx='cd ~/dev/hxxdev.github.io'
+alias gohxx='cd ~/dev/hxxdev.github.io; source env.sh'
 alias goasm='cd ~/dev/assembly_playground;source env.sh'
 
 # ruby related
