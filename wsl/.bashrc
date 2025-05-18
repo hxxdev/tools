@@ -181,6 +181,20 @@ alias gohack='cd ~/dev/hack_playground/; source env.sh'
 alias gohxx='cd ~/dev/hxxdev.github.io; source env.sh'
 alias goasm='cd ~/dev/assembly_playground;source env.sh'
 alias goverilog='cd ~/dev/verilog_playground;source env.sh'
+alias testcolor="awk 'BEGIN{
+    s=\"/\\\\/\\\\/\\\\/\\\\/\"; s=s s s s s s s s;
+    for (colnum = 0; colnum<77; colnum++) {
+        r = 255-(colnum*255/76);
+        g = (colnum*510/76);
+        b = (colnum*255/76);
+        if (g>255) g = 510 - g;
+        printf \"\033[48;2;%d;%d;%dm\", r,g,b;
+        printf \"\033[38;2;%d;%d;%dm\", 255-r,255-g,255-b;
+        printf \"%s\033[0m\", substr(s,colnum+1,1);
+    }
+    printf \"\n\";
+}'"
+alias update='sudo apt --yes update && sudo apt --yes upgrade'
 
 # ruby related
 export RUBYOPT='-W0'
@@ -194,3 +208,22 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/hxxdev/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/hxxdev/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/hxxdev/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/hxxdev/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+sudo systemctl start ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
