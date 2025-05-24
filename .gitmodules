@@ -1,0 +1,3 @@
+[submodule "git/gitui"]
+	path = git/gitui
+	url = https://github.com/gitui-org/gitui.git
