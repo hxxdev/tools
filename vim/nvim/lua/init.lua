@@ -6,9 +6,10 @@ end
 -- Package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?/init.lua;"
 -- Package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?.lua;"
 vim.opt.tags = '.tags'
-require("config.notify")
+package.path = package.path .. ";/home/hxxdev/dev/tools/vim/nvim/lua/config/?.lua"
+require("notify")
+require("noice")
+require("treesitter")
+require("nvim-tree")
+require("lualine")
 -- require("config.image")
-require("config.noice")
-require("config.treesitter")
-require("config.nvim-tree")
-require("config.lualine")

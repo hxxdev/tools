@@ -22,7 +22,12 @@ require('lualine').setup {
     lualine_a = {'mode'},
     lualine_b = {'branch', 'diff', 'diagnostics'},
     lualine_c = {'filename'},
-    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_x = {'encoding', 'fileformat', 'filetype',
+                    -- show macro recording in lualine
+                    {require("noice").api.statusline.mode.get,
+                     cond = require("noice").api.statusline.mode.has,
+                     color = { fg = "#ff9e64" },
+                }},
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },

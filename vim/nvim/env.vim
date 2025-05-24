@@ -1,4 +1,5 @@
 set number
+set relativenumber
 set history=1000
 set mouse=a
 set autoread
@@ -26,3 +27,4 @@ let g:clipboard = {
     \   'cache_enabled': 0,
     \ }
 set clipboard+=unnamedplus
+
