@@ -228,7 +228,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-sudo systemctl start ssh
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
+neofetch
 cd ~
