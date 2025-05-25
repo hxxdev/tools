@@ -46,3 +46,9 @@
 [submodule "vim/nvim/plugins/nvim-web-devicons"]
 	path = vim/nvim/plugins/nvim-web-devicons
 	url = https://github.com/nvim-tree/nvim-web-devicons.git
+[submodule "git/git-ui/gitui"]
+	path = git/git-ui/gitui
+	url = https://github.com/gitui-org/gitui.git
+[submodule "git/git-ui/catppuccin"]
+	path = git/git-ui/catppuccin
+	url = https://github.com/catppuccin/gitui.git
