@@ -17,7 +17,7 @@ Plug '~/dev/tools/vim/nvim/plugins/vim-gutentags'
 Plug '~/dev/tools/vim/nvim/plugins/lualine.nvim'
 Plug '~/dev/tools/vim/nvim/plugins/nvim-lspconfig'
 Plug '~/dev/tools/vim/nvim/plugins/mason.nvim'
-Plug '~/dev/tools/vim/nvim/colorschemes/challenger-deep', { 'as': 'challenger-deep' }
+Plug '~/dev/tools/vim/nvim/colorschemes/catppuccin', { 'as': 'catppuccin' }
 Plug '~/dev/LazyVerilog', { 'as': 'lazy_verilog' }
 
 call plug#end()

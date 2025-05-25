@@ -4,7 +4,7 @@
 " let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
 " " terminal background color.
 " let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
-colorscheme challenger_deep
+colorscheme catppuccin
 " let g:lightline = { 'colorscheme': 'challenger_deep'}
 syntax on
 filetype on

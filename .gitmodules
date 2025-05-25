@@ -55,3 +55,6 @@
 [submodule "starship"]
 	path = starship
 	url = https://github.com/starship/starship.git
+[submodule "vim/nvim/colorschemes/catppuccin"]
+	path = vim/nvim/colorschemes/catppuccin
+	url = https://github.com/catppuccin/nvim.git
