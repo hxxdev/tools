@@ -5,12 +5,13 @@ call plug#begin()
 " Plug '~/dev/tools/vim/nvim/plugins/markdown-preview.nvim', { 'do': { -> mkdp#util#install() },
      \                                             'for': ['markdown', 'vim-plug'] }
 Plug '~/dev/tools/vim/nvim/plugins/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
-Plug '~/dev/tools/vim/nvim/plugins/nui'
-Plug '~/dev/tools/vim/nvim/plugins/noice'
-Plug '~/dev/tools/vim/nvim/plugins/notify'
-Plug '~/dev/tools/vim/nvim/plugins/treesitter'
+Plug '~/dev/tools/vim/nvim/plugins/image.nvim'
+Plug '~/dev/tools/vim/nvim/plugins/nui.nvim'
+Plug '~/dev/tools/vim/nvim/plugins/noice.nvim'
+Plug '~/dev/tools/vim/nvim/plugins/nvim-notify'
+Plug '~/dev/tools/vim/nvim/plugins/nvim-treesitter'
 Plug '~/dev/tools/vim/nvim/plugins/nvim-tree.lua'
-Plug 'nvim-tree/nvim-web-devicons'
+Plug '~/dev/tools/vim/nvim/plugins/nvim-web-devicons'
 Plug '~/dev/tools/vim/nvim/plugins/vim-gutentags'
 " Plug '~/dev/tools/vim/nvim/plugins/lightline.vim'
 Plug '~/dev/tools/vim/nvim/plugins/lualine.nvim'

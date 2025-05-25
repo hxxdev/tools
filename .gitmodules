@@ -1,3 +1,48 @@
 [submodule "git/gitui"]
 	path = git/gitui
 	url = https://github.com/gitui-org/gitui.git
+[submodule "vim/nvim/plugins/image"]
+	path = vim/nvim/plugins/image
+	url = https://github.com/3rd/image.nvim.git
+[submodule "vim/nvim/plugins/image.nvim"]
+	path = vim/nvim/plugins/image.nvim
+	url = https://github.com/3rd/image.nvim.git
+[submodule "vim/nvim/plugins/lightline.vim"]
+	path = vim/nvim/plugins/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "vim/nvim/plugins/lualine.nvim"]
+	path = vim/nvim/plugins/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "vim/nvim/plugins/markdown-preview.nvim"]
+	path = vim/nvim/plugins/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
+[submodule "vim/nvim/plugins/mason.nvim"]
+	path = vim/nvim/plugins/mason.nvim
+	url = https://github.com/mason-org/mason.nvim.git
+[submodule "vim/nvim/plugins/noice.nvim"]
+	path = vim/nvim/plugins/noice.nvim
+	url = https://github.com/folke/noice.nvim.git
+[submodule "vim/nvim/plugins/nvim-notify"]
+	path = vim/nvim/plugins/nvim-notify
+	url = https://github.com/rcarriga/nvim-notify.git
+[submodule "vim/nvim/plugins/nui.nvim"]
+	path = vim/nvim/plugins/nui.nvim
+	url = https://github.com/MunifTanjim/nui.nvim.git
+[submodule "vim/nvim/plugins/nvim-lspconfig"]
+	path = vim/nvim/plugins/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "vim/nvim/plugins/nvim-tree.lua"]
+	path = vim/nvim/plugins/nvim-tree.lua
+	url = https://github.com/nvim-tree/nvim-tree.lua.git
+[submodule "vim/nvim/plugins/nvim-treesitter"]
+	path = vim/nvim/plugins/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "vim/nvim/plugins/vim-gutentags"]
+	path = vim/nvim/plugins/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule "vim/nvim/plugins/vim-plug"]
+	path = vim/nvim/plugins/vim-plug
+	url = https://github.com/junegunn/vim-plug.git
+[submodule "vim/nvim/plugins/nvim-web-devicons"]
+	path = vim/nvim/plugins/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons.git
