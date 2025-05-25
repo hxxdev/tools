@@ -1,8 +1,14 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
--- Default
+-- WSL
 config.default_prog = { "wsl.exe" }
+config.wsl_domains = {  {
+    name = "WSL:Ubuntu-24.04",
+    distribution = "Ubuntu-24.04",
+    default_cwd = '~'
+  },
+}
 config.default_domain = 'WSL:Ubuntu-24.04'
 -- Tabs
 config.hide_tab_bar_if_only_one_tab = false
