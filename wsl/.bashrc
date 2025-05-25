@@ -185,6 +185,7 @@ alias gohack='cd ~/dev/hack_playground/; source env.sh'
 alias gohxx='cd ~/dev/hxxdev.github.io; source env.sh'
 alias goasm='cd ~/dev/assembly_playground;source env.sh'
 alias goverilog='cd ~/dev/verilog_playground;source env.sh'
+alias gotools='cd ~/dev/tools'
 alias testcolor="awk 'BEGIN{
     s=\"/\\\\/\\\\/\\\\/\\\\/\"; s=s s s s s s s s;
     for (colnum = 0; colnum<77; colnum++) {
@@ -229,3 +230,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 neofetch
+eval "$(starship init bash)"
