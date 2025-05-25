@@ -109,12 +109,6 @@ config.font = wezterm.font("Hack Nerd Font", { weight = "Regular", italic = fals
 local appearance = wezterm.gui.get_appearance()
 local is_dark = appearance:find "Dark"
 
-if is_dark then
-    config.color_scheme = "Catppuccin Mocha"
-else
-    config.color_scheme = "Catppuccin Latte"
-end
-
 config.color_scheme = is_dark and "Catppuccin Mocha" or "Catppuccin Latte"
 config.set_environment_variables = {
     WSLENV = is_dark and "dark" or "light",
