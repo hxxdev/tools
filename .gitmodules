@@ -52,3 +52,6 @@
 [submodule "git/git-ui/catppuccin"]
 	path = git/git-ui/catppuccin
 	url = https://github.com/catppuccin/gitui.git
+[submodule "starship"]
+	path = starship
+	url = https://github.com/starship/starship.git
