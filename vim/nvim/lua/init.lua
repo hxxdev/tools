@@ -7,6 +7,7 @@ end
 -- Package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?.lua;"
 vim.opt.tags = '.tags'
 package.path = package.path .. ";/home/hxxdev/dev/tools/vim/nvim/lua/config/?.lua"
+require("config_vim-gutentags")
 require("config_notify")
 require("config_noice")
 require("config_treesitter")
