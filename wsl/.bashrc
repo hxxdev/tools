@@ -96,7 +96,12 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-alias gitui='gitui -t ~/dev/tools/git/git-ui/catppuccin/themes/catppuccin-latte.ron'
+if [[ "$WSLENV" == *dark* ]]; then
+    alias gitui='gitui -t ~/dev/tools/git/git-ui/catppuccin/themes/catppuccin-mocha.ron'
+else
+    alias gitui='gitui -t ~/dev/tools/git/git-ui/catppuccin/themes/catppuccin-latte.ron'
+fi
+
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
