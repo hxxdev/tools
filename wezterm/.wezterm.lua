@@ -1,19 +1,12 @@
-
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
-function scheme_for_appearance(appearance)
-  if appearance:find "Dark" then
-    return "Catppuccin Mocha"
-  else
-    return "Catppuccin Latte"
-  end
-end
+
 -- Default
 config.default_prog = { "wsl.exe" }
 config.default_domain = 'WSL:Ubuntu-24.04'
 -- Tabs
 config.hide_tab_bar_if_only_one_tab = false
-config.tab_bar_at_bottom = false
+config.tab_bar_at_bottom = true
 config.show_new_tab_button_in_tab_bar = true
 config.use_fancy_tab_bar = false
 -- Background
@@ -113,7 +106,19 @@ config.use_fancy_tab_bar = false
 --   launcher_label_fg = { Color = '#ffffff' }, -- (*Since: Nightly Builds Only*)
 -- }
 config.font = wezterm.font("Hack Nerd Font", { weight = "Regular", italic = false })
-config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
+local appearance = wezterm.gui.get_appearance()
+local is_dark = appearance:find "Dark"
+
+if is_dark then
+    config.color_scheme = "Catppuccin Mocha"
+else
+    config.color_scheme = "Catppuccin Latte"
+end
+
+config.color_scheme = is_dark and "Catppuccin Mocha" or "Catppuccin Latte"
+config.set_environment_variables = {
+    WSLENV = is_dark and "dark" or "light",
+}
 config.font_size = 16
 
 -- Key Bindings
