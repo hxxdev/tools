@@ -1,11 +1,10 @@
 call plug#begin()
 
 " List your plugins here
-Plug 'image.nvim', { 'dir': '~/dev/tools/vim/nvim/plugins' }
-Plug '~/dev/tools/vim/nvim/plugins/markdown-preview.nvim', { 'do': { -> mkdp#util#install() },
-   \                                             'for': ['markdown', 'vim-plug'] }
+"Plug '~/dev/tools/vim/nvim/plugins/markdown-preview.nvim', { 'do': { -> mkdp#util#install() },
+"   \                                             'for': ['markdown', 'vim-plug'] }
 Plug '~/dev/tools/vim/nvim/plugins/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
-Plug '~/dev/tools/vim/nvim/plugins/image.nvim'
+" Plug '~/dev/tools/vim/nvim/plugins/image.nvim'
 Plug '~/dev/tools/vim/nvim/plugins/nui.nvim'
 Plug '~/dev/tools/vim/nvim/plugins/noice.nvim'
 Plug '~/dev/tools/vim/nvim/plugins/nvim-notify'
