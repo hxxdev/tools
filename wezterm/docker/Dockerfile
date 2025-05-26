@@ -49,7 +49,6 @@ RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* && \
 
 RUN dnf search wayland
 RUN dnf search xcb 
-
 # Add runtime dependencies
 RUN dnf install -y dnf-plugins-core && \
     dnf config-manager --set-enabled powertools && \
@@ -75,10 +74,19 @@ RUN dnf install -y \
         libXft \
     && dnf clean all
 
-COPY /wezterm/target/release/wezterm /usr/local/bin/
-COPY /wezterm/target/release/wezterm-gui /usr/local/bin/
-COPY /wezterm/target/release/wezterm-mux-server /usr/local/bin/
-COPY /wezterm/target/release/strip-ansi-escapes /usr/local/bin/
+RUN dnf install -y \
+    mesa-libEGL \
+    mesa-libGL \
+    mesa-dri-drivers \
+    libglvnd \
+    libXdamage \
+    libxshmfence \
+    libXxf86vm
+
+COPY --from=builder /wezterm/target/release/wezterm /usr/local/bin/
+COPY --from=builder /wezterm/target/release/wezterm-gui /usr/local/bin/
+COPY --from=builder /wezterm/target/release/wezterm-mux-server /usr/local/bin/
+COPY --from=builder /wezterm/target/release/strip-ansi-escapes /usr/local/bin/
 
 
 CMD ["/bin/bash"]
