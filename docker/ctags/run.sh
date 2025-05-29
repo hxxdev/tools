@@ -1,3 +1,3 @@
 docker run -it \
   ctags-centos:latest \
-  /usr/local/bin/ctags
+  /usr/local/bin/ctags --list-languages
