@@ -20,24 +20,6 @@ RUN dnf install -y \
     wayland-devel mesa-libEGL-devel mesa-libGL-devel \
     mesa-dri-drivers libxkbcommon-devel dbus-devel \
     libxkbcommon-x11-devel systemd-devel lcms2-devel cairo-devel wayland-protocols-devel
-# upgrade wayland
-RUN curl -L -o wayland-protocols-1.23.tar.gz "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/archive/1.23.tar.gz?ref=1.23" && \
-    tar xf wayland-protocols-1.23.tar.gz && \
-    cd wayland-protocols-1.23 && \
-    ./configure --prefix=/usr && \
-    make && make install
-
-# xxhash
-RUN git clone https://github.com/Microsoft/vcpkg.git && \
-    cd vcpkg && \
-    ./bootstrap-vcpkg.sh && \
-    ./vcpkg integrate install && \
-    ./vcpkg install xxhash
-ENV PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig:$PKG_CONFIG_PATH
-ENV VCPKG_ROOT=/vcpkg
-ENV VCPKG_DEFAULT_TRIPLET=x64-linux
-ENV PKG_CONFIG_PATH=$VCPKG_ROOT/installed/$VCPKG_DEFAULT_TRIPLET/lib/pkgconfig:$PKG_CONFIG_PATH
-ENV LD_LIBRARY_PATH=$VCPKG_ROOT/installed/$VCPKG_DEFAULT_TRIPLET/lib:$LD_LIBRARY_PATH
 
 # Python 3.9
 RUN dnf install -y gcc openssl-devel bzip2-devel libffi-devel xz-devel wget make
@@ -53,11 +35,58 @@ RUN alternatives --set python3 /usr/local/bin/python3.10
 RUN python3 -m ensurepip
 RUN python3 -m pip install --upgrade pip setuptools wheel
 
+# For debug
+RUN pkg-config --variable pc_path pkg-config
+RUN find / -name wayland*.pc
+
+#RUN echo "\
+#prefix=/usr\n\
+#exec_prefix=\${prefix}\n\
+#libdir=\${exec_prefix}/lib64\n\
+#includedir=\${prefix}/include\n\
+#Name: wayland\n\
+#Description: Fake wayland.pc to satisfy wayland-protocols build\n\
+#Version: 1.19.0\n\
+#Requires: wayland-client >= 1.19.0\n\
+#Libs: -L\${libdir} -lwayland-client\n\
+#Cflags: -I\${includedir}/wayland\n\
+#" > /usr/lib64/pkgconfig/wayland.pc
+# meson
+RUN dnf install -y meson && \
+    dnf install -y python3 python3-pip && \
+    pip3 install --upgrade meson ninja
+
+# upgrade wayland
+RUN git clone https://gitlab.freedesktop.org/wayland/wayland-protocols.git && \
+    cd wayland-protocols && \
+    meson setup build -Dwayland_subproject=false && \
+    ninja -C build && \
+    ninja -C build install
+
+##RUN curl -L -o wayland-protocols.tar.gz "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/archive/1.23.tar.gz?ref=1.23" && \
+##    tar xf wayland-protocols.tar.gz && \
+##    cd wayland-protocols-* && \
+##    ./configure --prefix=/usr && \
+##    make && make install
+
+# xxhash
+RUN git clone https://github.com/Microsoft/vcpkg.git && \
+    cd vcpkg && \
+    ./bootstrap-vcpkg.sh && \
+    ./vcpkg integrate install && \
+    ./vcpkg install xxhash
+ENV PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig:$PKG_CONFIG_PATH
+ENV VCPKG_ROOT=/vcpkg
+ENV VCPKG_DEFAULT_TRIPLET=x64-linux
+ENV PKG_CONFIG_PATH=$VCPKG_ROOT/installed/$VCPKG_DEFAULT_TRIPLET/lib/pkgconfig:$PKG_CONFIG_PATH
+ENV LD_LIBRARY_PATH=$VCPKG_ROOT/installed/$VCPKG_DEFAULT_TRIPLET/lib:$LD_LIBRARY_PATH
+
+
 # System Nerd Font
-RUN mkdir -p /usr/share/fonts/nerd-fonts && \
-    cd /usr/share/fonts/nerd-fonts && \
-    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/SymbolsNerdFontMono-Regular.ttf && \
-    fc-cache -fv
+#RUN mkdir -p /usr/share/fonts/nerd-fonts && \
+#    cd /usr/share/fonts/nerd-fonts && \
+#    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/SymbolsNerdFontMono-Regular.ttf && \
+#    fc-cache -fv
 
 # Clone kitty
 RUN git clone https://github.com/kovidgoyal/kitty.git /kitty
