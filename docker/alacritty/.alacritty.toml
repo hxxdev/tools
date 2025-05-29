@@ -1,0 +1,25 @@
+# ~/.config/alacritty/alacritty.toml
+
+# Performance
+vsync = false
+refresh_rate = 60
+
+# Font settings
+#[font]
+#normal = { family = "DejaVu Sans Mono", style = "Regular" }
+#size = 12.0
+
+# Window settings
+[window]
+padding = { x = 6, y = 6 }
+opacity = 0.95
+
+# Colors
+[colors]
+primary = { background = "#1e1e2e", foreground = "#c0caf5" }
+
+# Scrolling
+[scrolling]
+history = 10000
+multiplier = 3
+
